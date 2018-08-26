@@ -122,7 +122,10 @@ C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-us
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Newtonsoft.Json.dll
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Owin.dll
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Net.Http.Formatting.dll
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Helpers.dll
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Http.dll
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Http.WebHost.dll
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Mvc.dll
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Optimization.dll
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Razor.dll
@@ -136,6 +139,9 @@ C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-us
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Microsoft.ApplicationInsights.xml
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Net.Http.Formatting.xml
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Http.xml
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Http.WebHost.xml
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Helpers.xml
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Mvc.xml
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\System.Web.Optimization.xml
@@ -159,6 +165,8 @@ C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-us
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\obj\Debug\MVCTest.csprojResolveAssemblyReference.cache
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\obj\Debug\MVCTest.dll
 C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\obj\Debug\MVCTest.pdb
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\obj\Debug\MVCTest.csprojAssemblyReference.cache
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\obj\Debug\MVCTest.csproj.CoreCompileInputs.cache
+C:\Users\intesarAlam\Documents\GitHub\MVCTest\How-to-Create-mvc-5-application-using-entity-framework-6\MVCTest\obj\Debug\MVCTest.csproj.CopyComplete
