@@ -16,11 +16,11 @@ namespace MVCTest.Controllers
         private SchoolContext db = new SchoolContext();
 
         // GET: Students
+        [Route("Students/StudentList")]
         public ActionResult Index()
         {
             return View(db.Students.ToList());
         }
-
         // GET: Students/Details/5
         public ActionResult Details(int? id)
         {
@@ -58,7 +58,6 @@ namespace MVCTest.Controllers
 
             return View(student);
         }
-
         // GET: Students/Edit/5
         public ActionResult Edit(int? id)
         {
@@ -113,8 +112,12 @@ namespace MVCTest.Controllers
             Student student = db.Students.Find(id);
             db.Students.Remove(student);
             db.SaveChanges();
+            List<string> lstEx = new List<string>();
+            lstEx.FirstOrDefault();
             return RedirectToAction("Index");
         }
+
+
 
         protected override void Dispose(bool disposing)
         {

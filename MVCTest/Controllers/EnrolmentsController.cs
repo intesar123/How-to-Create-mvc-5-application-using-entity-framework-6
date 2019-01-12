@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using CrystalDecisions.CrystalReports.Engine;
 using MVCTest.DAL;
 using MVCTest.Models;
 
@@ -80,7 +82,28 @@ namespace MVCTest.Controllers
             ViewBag.StudentId = new SelectList(db.Students, "Id", "Lastname", enrolment.StudentId);
             return View(enrolment);
         }
+        [HttpGet]
+        public ActionResult ExportEntrolments()
+        {
 
+            List<Enrolment> allCustomer = new List<Enrolment>();
+            allCustomer = db.Enrolments.ToList();
+
+
+            ReportDocument rd = new ReportDocument();
+            rd.Load(Path.Combine(Server.MapPath("~/CrystalReport"), "EnrolmentExample.rpt"));
+
+            rd.SetDataSource(allCustomer);
+
+            Response.Buffer = false;
+            Response.ClearContent();
+            Response.ClearHeaders();
+
+
+            Stream stream = rd.ExportToStream(CrystalDecisions.Shared.ExportFormatType.PortableDocFormat);
+            stream.Seek(0, SeekOrigin.Begin);
+            return File(stream, "application/pdf", "CustomerList.pdf");
+        }
         // POST: Enrolments/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
